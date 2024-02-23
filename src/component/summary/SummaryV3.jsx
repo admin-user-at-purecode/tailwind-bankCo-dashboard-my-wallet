@@ -18,12 +18,10 @@ function SummaryV3() {
   const chartRef = useRef(null);
 
   useEffect(() => {
-    // // Get canvas context and create gradient
     const ctx = chartRef?.current?.getContext("2d")?.chart.ctx;
 
     if (ctx) {
       const gradient = createGradient(ctx);
-      // Update chart data and options
       chartRef.current.data.datasets[0].backgroundColor = gradient;
       chartRef.current.update();
     }
@@ -63,7 +61,6 @@ function SummaryV3() {
         label: "Signed",
         data: [65, 75, 65, 55, 75, 55, 45, 65, 75, 65, 85, 75],
         borderColor: "#22C55E",
-        // pointRadius: 5,
         pointBorderColor: "#ffffff",
         pointBackgroundColor: "#22C55E",
         pointBorderWidth: 4,

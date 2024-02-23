@@ -103,7 +103,7 @@
             }
         },
         "wallet": {
-            "location": "below the add balance component",
+            "location": "to the right of the add_money component",
             "children": {
                 "payment select": {
                     "count": 1,
@@ -127,7 +127,7 @@
             }
         },
         "summaryV3": {
-            "location": "below the header & beside add balance component",
+            "location": "below the wallet  component",
             "children": {
                 "Date_filter": {
                     "count": 1,
@@ -142,7 +142,7 @@
             }
         },
         "EfficiencyV2": {
-            "location": "to the right of the overall balance component",
+            "location": "below the header component",
             "children": {
                 "Month _filter": {
                     "count": 1,
@@ -161,7 +161,7 @@
             }
         },
         "ListTab": {
-            "location": "to the right of the wallet component",
+            "location": "to the right of the efficientyV2 component",
             "children": {
                 "search": {
                     "count": 1,
@@ -193,7 +193,10 @@
         "Stretched the Revenue Flow to the entire center column"
     ],
     "screen_and_layout_augmentations": [
-        "swapped position of revenue flow with efficiency card",
-        "dropped the My Wallet component to be below contacts table"
+        "swapped position of add_balance with efficientyV2 component",
+        "swapped position of summaryV3 and efficientyV2 components with ListTab component",
+        "swapped position of wallet  with add_money component",
+        "swapped position of ListTab  with wallet component",
+        "dropped summaryV3  component below  wallet component"
     ]
 }

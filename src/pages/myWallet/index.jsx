@@ -9,19 +9,21 @@ function MyWallet() {
     <main className="w-full xl:px-12 px-6 pb-6 xl:pb-12 sm:pt-[156px] pt-[100px]">
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:w-[424px]">
+          <EfficiencyV2 />
           <AddBalance />
-          <Wallet />
         </section>
         <div className="2xl:flex-1">
           <section className="w-full xl:flex xl:space-x-[24px]">
-            <SummaryV3 />
-            <EfficiencyV2 />
+            <ListTab />
           </section>
-          <ListTab />
+          <div className="mt-6">
+            <Wallet />
+          </div>
+
+          <SummaryV3 />
         </div>
       </div>
     </main>
   );
 }
-
 export default MyWallet;
