@@ -1,0 +1,199 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },
+    "component_names": [
+        "sidebar",
+        "header",
+        "Add balance",
+        "wallet",
+        "summaryV3",
+        "EfficiencyV2",
+        "ListTab"
+    ],
+    "component_information": {
+        "sidebar": {
+            "count": 1,
+            "location": "to the left of the page, fixed",
+            "description": "collapsible, to the left, on toggled"
+        },
+        "header": {
+            "count": 1,
+            "location": "on the top of the page",
+            "description": "HeaderOne and HeaderTwo flexed",
+            "children": {
+                "HeaderOne": {
+                    "count": 1,
+                    "location": "to the left of the container",
+                    "children": {
+                        "SearchBar": {
+                            "count": 1,
+                            "location": "placed centered",
+                            "description": "user can enter input"
+                        },
+                        "ModeToggler": {
+                            "count": 1,
+                            "location": "to the right of the SearchBar",
+                            "description": "theme toggle button",
+                            "functionality": "toggles the global theme"
+                        },
+                        "ToggleBtn": {
+                            "count": 3,
+                            "location": "to the right of the ModeToggler button",
+                            "description": "on clicked opens popup",
+                            "children": {
+                                "NotificationPopup": {
+                                    "count": 1,
+                                    "description": "opens on first toggle button clicked"
+                                },
+                                "MassagePopup": {
+                                    "count": 1,
+                                    "description": "opens on second toggle button clicked"
+                                },
+                                "StorePopUp": {
+                                    "count": 1,
+                                    "description": "opens on third toggle button clicked"
+                                }
+                            }
+                        },
+                        "Author": {
+                            "count": 1,
+                            "location": "to the right of the ToggleBtn",
+                            "description": "opens the popup containing user basic information"
+                        },
+                        "ProfilePopup": {
+                            "count": 1,
+                            "description": "opens a dropdown of some navs"
+                        }
+                    },
+                    "children_orientation_description": "flexed"
+                },
+                "HeaderTwo": {
+                    "count": 1,
+                    "location": "to the top of the page",
+                    "description": "visible on the mobile screen",
+                    "children": {
+                        "ResProfilePopup": {
+                            "count": 1,
+                            "location": "to the right in the container",
+                            "description": "collapsible list on toggled"
+                        }
+                    },
+                    "children_orientation_description": "flexed"
+                }
+            }
+        },
+        "Add balance": {
+            "location": "below the header",
+            "children": {
+                "transparentbtn": {
+                    "count": 1,
+                    "location": "inside add balance component"
+                },
+                "Greenbtn": {
+                    "count": 1,
+                    "location": "inside add balance component"
+                }
+            }
+        },
+        "wallet": {
+            "location": "below the add balance component",
+            "children": {
+                "payment select": {
+                    "count": 1,
+                    "location": "inside the wallet component",
+                    "description": "dropdown list"
+                },
+                "slider": {
+                    "count": 1,
+                    "location": "below the payment select component"
+                },
+                "payment_filter": {
+                    "count": 1,
+                    "location": "below the slider component",
+                    "description": "dropdown list"
+                },
+                "Greenbtn": {
+                    "count": 1,
+                    "location": "below the payment filter component",
+                    "description": "a button with green background and white color text"
+                }
+            }
+        },
+        "summaryV3": {
+            "location": "below the header & beside add balance component",
+            "children": {
+                "Date_filter": {
+                    "count": 1,
+                    "location": "inside summaryV3 component",
+                    "description": "dropdown list"
+                },
+                "line_chart": {
+                    "count": 1,
+                    "location": "inside summaryV3 component",
+                    "description": "line graph"
+                }
+            }
+        },
+        "EfficiencyV2": {
+            "location": "to the right of the overall balance component",
+            "children": {
+                "Month _filter": {
+                    "count": 1,
+                    "location": "inside the EfficiencyV2 component",
+                    "description": "dropdown list"
+                },
+                "pie_chart": {
+                    "count": 1,
+                    "location": "inside the efficiency component"
+                },
+                "currency_filter": {
+                    "count": 1,
+                    "location": "below the  pie chart",
+                    "description": "A component facilitating currency filtration, supporting various currency codes such as USD, EUR, etc"
+                }
+            }
+        },
+        "ListTab": {
+            "location": "to the right of the wallet component",
+            "children": {
+                "search": {
+                    "count": 1,
+                    "location": "inside the Listtab component"
+                },
+                "filter": {
+                    "count": 1,
+                    "location": "to the right of the search component",
+                    "description": "dropdown list"
+                },
+                "FilterFull": {
+                    "count": 1,
+                    "location": "below the search component",
+                    "description": "dropdown List"
+                },
+                "User_tab": {
+                    "count": 1,
+                    "location": "below the search component",
+                    "description": "details about the users"
+                },
+                "pagination": {
+                    "count": 1,
+                    "location": "below the UserTab table component"
+                }
+            }
+        }
+    },
+    "sizing_updates": [
+        "Stretched the Revenue Flow to the entire center column"
+    ],
+    "screen_and_layout_augmentations": [
+        "swapped position of revenue flow with efficiency card",
+        "dropped the My Wallet component to be below contacts table"
+    ]
+}
