@@ -187,6 +187,9 @@
             }
         }
     },
+    "functionality": [
+        "removed color changing  fuctionality in wallet component "
+    ],
     "sizing_updates": [
         ".."
     ],
