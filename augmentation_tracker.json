@@ -163,36 +163,8 @@
                     "description": "A component facilitating currency filtration, supporting various currency codes such as USD, EUR, etc"
                 }
             }
-        },
-        "ListTab": {
-            "count": 1,
-            "location": "to the right of the wallet component",
-            "children": {
-                "search": {
-                    "count": 1,
-                    "location": "inside the Listtab component"
-                },
-                "filter": {
-                    "count": 1,
-                    "location": "to the right of the search component",
-                    "description": "dropdown list"
-                },
-                "FilterFull": {
-                    "count": 1,
-                    "location": "below the search component",
-                    "description": "dropdown List"
-                },
-                "User_tab": {
-                    "count": 1,
-                    "location": "below the search component",
-                    "description": "details about the users"
-                },
-                "pagination": {
-                    "count": 1,
-                    "location": "below the UserTab table component"
-                }
-            }
         }
+      
     },
     "sizing_updates": [
         ".."

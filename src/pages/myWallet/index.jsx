@@ -17,7 +17,7 @@ function MyWallet() {
             <SummaryV3 />
             <EfficiencyV2 />
           </section>
-          <ListTab />
+         
         </div>
       </div>
     </main>
