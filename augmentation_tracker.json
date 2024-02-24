@@ -114,49 +114,21 @@
                     "location": "below the slider component",
                     "description": "dropdown list"
                 },
-                "Greenbtn": {
+                "inputelement":{
+                    "count": 1,
+                    "location": "below the payment filter component",
+
+
+                },
+               "Greenbtn": {
                     "count": 1,
                     "location": "below the payment filter component",
                     "description": "a button with green background and white color text"
                 }
             }
         },
-        "summaryV3": {
-            "count": 1,
-            "location": "below the header & beside add balance component",
-            "children": {
-                "Date_filter": {
-                    "count": 1,
-                    "location": "inside summaryV3 component",
-                    "description": "dropdown list"
-                },
-                "line_chart": {
-                    "count": 1,
-                    "location": "inside summaryV3 component",
-                    "description": "line graph"
-                }
-            }
-        },
-        "EfficiencyV2": {
-            "count": 1,
-            "location": "to the right of the summaryV3 component",
-            "children": {
-                "Month _filter": {
-                    "count": 1,
-                    "location": "inside the EfficiencyV2 component",
-                    "description": "dropdown list"
-                },
-                "pie_chart": {
-                    "count": 1,
-                    "location": "inside the efficiency component"
-                },
-                "currency_filter": {
-                    "count": 1,
-                    "location": "below the  pie chart",
-                    "description": "A component facilitating currency filtration, supporting various currency codes such as USD, EUR, etc"
-                }
-            }
-        },
+      
+      
         "ListTab": {
             "count": 1,
             "location": "to the right of the wallet component",
