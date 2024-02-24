@@ -18,6 +18,7 @@ function MyWallet() {
             <EfficiencyV2 />
           </section>
           <ListTab />
+          <AddBalance />
         </div>
       </div>
     </main>
