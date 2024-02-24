@@ -23,71 +23,64 @@
             "location": "to the left of the page, fixed",
             "description": "collapsible, to the left, on toggled"
         },
-        "header": {
+        "HeaderOne": {
             "count": 1,
-            "location": "on the top of the page",
-            "description": "HeaderOne and HeaderTwo flexed",
+            "location": "to the top of the container",
             "children": {
-                "HeaderOne": {
+                "SearchBar": {
                     "count": 1,
-                    "location": "to the left of the container",
-                    "children": {
-                        "SearchBar": {
-                            "count": 1,
-                            "location": "placed centered",
-                            "description": "user can enter input"
-                        },
-                        "ModeToggler": {
-                            "count": 1,
-                            "location": "to the right of the SearchBar",
-                            "description": "theme toggle button",
-                            "functionality": "toggles the global theme"
-                        },
-                        "ToggleBtn": {
-                            "count": 3,
-                            "location": "to the right of the ModeToggler button",
-                            "description": "on clicked opens popup",
-                            "children": {
-                                "NotificationPopup": {
-                                    "count": 1,
-                                    "description": "opens on first toggle button clicked"
-                                },
-                                "MassagePopup": {
-                                    "count": 1,
-                                    "description": "opens on second toggle button clicked"
-                                },
-                                "StorePopUp": {
-                                    "count": 1,
-                                    "description": "opens on third toggle button clicked"
-                                }
-                            }
-                        },
-                        "Author": {
-                            "count": 1,
-                            "location": "to the right of the ToggleBtn",
-                            "description": "opens the popup containing user basic information"
-                        },
-                        "ProfilePopup": {
-                            "count": 1,
-                            "description": "opens a dropdown of some navs"
-                        }
-                    },
-                    "children_orientation_description": "flexed"
+                    "location": "placed centered",
+                    "description": "user can enter input"
                 },
-                "HeaderTwo": {
+                "ModeToggler": {
                     "count": 1,
-                    "location": "to the top of the page",
-                    "description": "visible on the mobile screen",
+                    "location": "to the right of the SearchBar",
+                    "description": "theme toggle button",
+                    "functionality": "toggles the global theme"
+                },
+                "ToggleBtn": {
+                    "count": 3,
+                    "location": "to the right of the ModeToggler button",
+                    "description": "on clicked opens popup",
                     "children": {
-                        "ResProfilePopup": {
+                        "NotificationPopup": {
                             "count": 1,
-                            "location": "to the right in the container",
-                            "description": "collapsible list on toggled"
+                            "description": "opens on first toggle button clicked"
+                        },
+                        "MassagePopup": {
+                            "count": 1,
+                            "description": "opens on second toggle button clicked"
+                        },
+                        "StorePopUp": {
+                            "count": 1,
+                            "description": "opens on third toggle button clicked"
                         }
-                    },
-                    "children_orientation_description": "flexed"
+                    }
+                },
+                "Author": {
+                    "count": 1,
+                    "location": "to the right of the ToggleBtn",
+                    "description": "opens the popup containing user basic information"
+                },
+                "ProfilePopup": {
+                    "count": 1,
+                    "description": "opens a dropdown of some navs"
                 }
-            }
+            },
+            "children_orientation_description": "flexed"
+        },
+        "HeaderTwo": {
+            "count": 1,
+            "location": "to the top of the page",
+            "description": "visible on the mobile screen",
+            "children": {
+                "ResProfilePopup": {
+                    "count": 1,
+                    "location": "to the right in the container",
+                    "description": "collapsible list on toggled"
+                }
+            },
+            "children_orientation_description": "flexed"
         },
         "Add balance": {
             "count": 1,
@@ -121,6 +114,11 @@
                     "location": "below the slider component",
                     "description": "dropdown list"
                 },
+                "inputelement"{
+                    "count": 1,
+                    "location": "below the payment filter component",
+
+                },
                 "Greenbtn": {
                     "count": 1,
                     "location": "below the payment filter component",
@@ -146,7 +144,7 @@
         },
         "EfficiencyV2": {
             "count": 1,
-            "location": "to the right of the overall balance component",
+            "location": "to the right of the summaryV3 component",
             "children": {
                 "Month _filter": {
                     "count": 1,
