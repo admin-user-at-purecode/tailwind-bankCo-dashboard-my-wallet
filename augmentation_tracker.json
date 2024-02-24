@@ -104,8 +104,8 @@
             }
         },
         "wallet": {
-            "count": 1,
-            "location": "below the add balance component",
+            "count": 2,
+            "location": "one is below the add balance component and other is below the listtab component",
             "children": {
                 "payment select": {
                     "count": 1,
@@ -145,8 +145,8 @@
             }
         },
         "EfficiencyV2": {
-            "count": 1,
-            "location": "to the right of the overall balance component",
+            "count": 2,
+            "location": "one is to the right of the summaryV3 component and other is below the wallet component ",
             "children": {
                 "Month _filter": {
                     "count": 1,
