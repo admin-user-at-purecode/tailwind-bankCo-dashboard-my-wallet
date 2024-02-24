@@ -15,6 +15,7 @@ function MyWallet() {
         <div className="2xl:flex-1">
           <section className="w-full xl:flex xl:space-x-[24px]">
             <SummaryV3 />
+            <Wallet />
             <EfficiencyV2 />
           </section>
           <ListTab />
