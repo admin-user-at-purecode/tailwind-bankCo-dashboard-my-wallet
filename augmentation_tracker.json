@@ -82,20 +82,6 @@
             },
             "children_orientation_description": "flexed"
         },
-        "Add balance": {
-            "count": 1,
-            "location": "below the header",
-            "children": {
-                "transparentbtn": {
-                    "count": 1,
-                    "location": "inside add balance component"
-                },
-                "Greenbtn": {
-                    "count": 1,
-                    "location": "inside add balance component"
-                }
-            }
-        },
         "wallet": {
             "count": 1,
             "location": "below the add balance component",
@@ -114,6 +100,13 @@
                     "location": "below the slider component",
                     "description": "dropdown list"
                 },
+                "inputelement":{
+                    "count": 1,
+                    "location": "below the payment filter component"
+
+
+                },
+
                 "Greenbtn": {
                     "count": 1,
                     "location": "below the payment filter component",
