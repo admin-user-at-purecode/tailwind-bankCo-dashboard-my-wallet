@@ -165,7 +165,7 @@
             }
         },
         "ListTab": {
-            "count": 1,
+            "count": 2,
             "location": "to the right of the wallet component",
             "children": {
                 "search": {
@@ -198,7 +198,8 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
-        "..."
+        "swapped position of  summaryV3 and efficiency with listtab",
+        "swapped position of listtab with summaryV3 component ",
+        "dropped the EfficiencyV2 component below the wallet component"
     ]
 }
