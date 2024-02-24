@@ -188,7 +188,7 @@
         }
     },
     "sizing_updates": [
-        ".."
+        "resize the width of the add_balance,EfficiencyV2,summaryV3,ListTab,wallet component using grid giving overall grid cols-7 and col-span-4 to some component and col-span-3 to some component   and col-span-7 to summaryV3 component"
     ],
     "screen_and_layout_augmentations": [
         "..",
