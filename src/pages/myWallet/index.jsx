@@ -10,7 +10,6 @@ function MyWallet() {
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:w-[424px]">
           <AddBalance />
-          <Wallet />
         </section>
         <div className="2xl:flex-1">
           <section className="w-full xl:flex xl:space-x-[24px]">
