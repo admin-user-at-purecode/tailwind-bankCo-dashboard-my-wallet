@@ -83,8 +83,8 @@
             "children_orientation_description": "flexed"
         },
         "Add balance": {
-            "count": 1,
-            "location": "below the header",
+            "count": 2,
+            "location": "one is below the header and other one is to the right of the listtab component",
             "children": {
                 "transparentbtn": {
                     "count": 1,
@@ -97,8 +97,8 @@
             }
         },
         "wallet": {
-            "count": 1,
-            "location": "below the add balance component",
+            "count": 2,
+            "location": "one is to the right of the Add_balance component and other is below list component",
             "children": {
                 "payment select": {
                     "count": 1,
@@ -122,8 +122,8 @@
             }
         },
         "summaryV3": {
-            "count": 1,
-            "location": "below the header & beside add balance component",
+            "count": 2,
+            "location": "below the add_balance component  & to the right of the wallet  component",
             "children": {
                 "Date_filter": {
                     "count": 1,
@@ -138,8 +138,8 @@
             }
         },
         "EfficiencyV2": {
-            "count": 1,
-            "location": "to the right of the summaryV3 component",
+            "count": 2,
+            "location": "to the right of the summaryV3 component and other is the below the wallet component",
             "children": {
                 "Month _filter": {
                     "count": 1,
@@ -159,7 +159,7 @@
         },
         "ListTab": {
             "count": 1,
-            "location": "to the right of the wallet component",
+            "location": "below the summaryv3 component",
             "children": {
                 "search": {
                     "count": 1,
