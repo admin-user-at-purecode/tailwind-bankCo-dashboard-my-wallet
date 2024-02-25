@@ -187,8 +187,13 @@
             }
         }
     },
-    "sizing_updates": [
-        ".."
+   
+   "sizing_updates": [
+    "Resize the width of the list tab component to 60%.",
+    "Resize the width of the wallet tab component to 40%.",
+    "Resize the width of the summaryV3 component to 60%.",
+    "Resize the width of the EfficiencyV2 component to 40%.",
+    "Resize the width of the add balance component to 70%."
     ],
     "screen_and_layout_augmentations": [
         "..",
