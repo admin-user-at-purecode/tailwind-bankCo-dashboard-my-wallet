@@ -146,7 +146,7 @@
         },
         "EfficiencyV2": {
             "count": 1,
-            "location": "to the right of the overall balance component",
+            "location": "below the wallet component",
             "children": {
                 "Month _filter": {
                     "count": 1,
@@ -198,7 +198,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "added extra wallet component to the right of the summaryV3 component",
         "..."
     ]
 }
